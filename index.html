@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Divyadharshini - Student Portfolio</title>
+
+    <meta
+      name="description"
+      content="Personal portfolio of Divyadharshini, B.Sc Computer Science student."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="nav-inner">
+        <a href="#hero" class="logo">Divya<span>dharshini</span></a>
+
+        <nav class="nav-desktop" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Open menu"
+          aria-expanded="false"
+          aria-controls="mobileSidebar"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <aside class="mobile-sidebar" id="mobileSidebar" aria-hidden="true">
+      <button class="sidebar-close" id="sidebarClose" aria-label="Close menu">
+        &times;
+      </button>
+      <nav aria-label="Mobile navigation">
+        <ul>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="hero" class="hero grid-bg">
+        <div class="container hero-grid">
+          <div>
+            <h1>
+              Passionate Student<br />
+              <em>Learning & Building for the Future.</em>
+            </h1>
+            <p class="hero-lede">
+              I am a B.Sc Computer Science student with a strong interest in Web
+              Development and Software Development. I enjoy learning new
+              technologies, solving problems, and building responsive web
+              applications using modern tools and frameworks.
+            </p>
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+            </div>
+          </div>
+
+          <div class="hero-mark">
+            <div class="frame">
+              <p class="hero-monogram">D<span>D</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+    ABOUT
+  ========================================================== -->
+      <section id="about" class="section about">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Fig. 01 — About</span>
+            <h2>About Me</h2>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-copy">
+              <p>
+                I am currently pursuing a Bachelor of Science in Computer
+                Science. I am passionate about web technologies and continuously
+                improving my programming and problem-solving skills.
+              </p>
+
+              <p>
+                My interests include Frontend Development, Full Stack
+                Development, Database Management, and UI/UX Design. I enjoy
+                working on academic projects and learning modern technologies.
+              </p>
+
+              <p>
+                My goal is to begin my professional career as a Software
+                Developer and contribute to innovative technology solutions.
+              </p>
+            </div>
+
+            <div class="specs">
+              <p class="specs-title">Quick Specs</p>
+              <dl>
+                <dt>Education</dt>
+                <dd>B.Sc Computer Science</dd>
+
+                <dt>College</dt>
+                <dd>Your College Name</dd>
+
+                <dt>Graduation</dt>
+                <dd>2027</dd>
+
+                <dt>Status</dt>
+                <dd>
+                  <span class="status-dot"></span>
+                  Seeking Opportunities
+                </dd>
+              </dl>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+    EDUCATION
+  ========================================================== -->
+      <section id="education" class="section">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Fig. 02 — Education</span>
+            <h2>Educational Background</h2>
+          </div>
+
+          <div class="timeline">
+            <div class="timeline-item">
+              <p class="timeline-date">2024 - 2027</p>
+              <h3>B.Sc Computer Science</h3>
+              <ul>
+                <li>Completed Bachelor's Degree in Computer Science.</li>
+                <li>
+                  Studied Programming, Database Management, and Web Development.
+                </li>
+              </ul>
+            </div>
+
+            <div class="timeline-item">
+              <p class="timeline-date">2022 - 2024</p>
+              <h3>Higher Secondary Education</h3>
+              <ul>
+                <li>Completed Higher Secondary School Education.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+    SKILLS
+  ========================================================== -->
+      <section id="skills" class="section skills">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Fig. 03 — Skills</span>
+            <h2>Technical Skills</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div>
+              <p class="skill-group-label">Languages</p>
+              <div class="chip-row">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">Java</span>
+                <span class="chip">Python</span>
+                <span class="chip">SQL</span>
+              </div>
+            </div>
+
+            <div>
+              <p class="skill-group-label">Frameworks &amp; Libraries</p>
+              <div class="chip-row">
+                <span class="chip">React.js</span>
+                <span class="chip">Node.js</span>
+                <span class="chip">Tailwind CSS </span>
+                <span class="chip">Bootstrap</span>
+              </div>
+            </div>
+
+            <div>
+              <p class="skill-group-label">Tools</p>
+              <div class="chip-row">
+                <span class="chip">Git</span>
+                <span class="chip">GitHub</span>
+                <span class="chip">Postman</span>
+                <span class="chip">VS Code</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+    EXPERIENCE
+  ========================================================== -->
+      <section id="achievements" class="section experience">
+        <div class="container">
+          <div class="section-head">
+            <span class="eyebrow">Fig. 04 — Achievements</span>
+            <h2>Achievements & Certifications</h2>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-date">Certification</p>
+            <h3>Full Stack Development Training</h3>
+            <ul>
+              <li>Completed Full Stack Development training program.</li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-date">Certification</p>
+            <h3>Programming & Web Development</h3>
+            <ul>
+              <li>
+                Learned HTML, CSS, JavaScript, React.js and Database concepts.
+              </li>
+            </ul>
+          </div>
+
+          <div class="timeline-item">
+            <p class="timeline-date">Skills</p>
+            <h3>Typing Certification</h3>
+            <ul>
+              <li>Tamil and English Typing Certification.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+    CONTACT
+  ========================================================== -->
+      <section id="contact" class="section contact">
+        <div class="container contact-inner">
+          <div>
+            <span class="eyebrow">Fig. 05 — Contact</span>
+            <h2>Get In Touch</h2>
+            <p class="contact-copy">
+              Thank you for visiting my portfolio. Feel free to contact me
+              regarding internships, training opportunities, or collaborations.
+            </p>
+          </div>
+
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:hello@alexrivera.dev">
+              <span>hello@alexrivera.dev</span>
+              <span class="arrow">→</span>
+            </a>
+            <a class="contact-link" href="#">
+              <span>GitHub</span>
+              <span class="arrow">→</span>
+            </a>
+            <a class="contact-link" href="#">
+              <span>LinkedIn</span>
+              <span class="arrow">→</span>
+            </a>
+            <a class="contact-link" href="#">
+              <span>X / Twitter</span>
+              <span class="arrow">→</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+  FOOTER
+========================================================== -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Divyadharshini - Student Portfolio</p>
+        <a href="#hero">Back to top ↑</a>
+      </div>
+    </footer>
+
+    <!-- =========================================================
+  JAVASCRIPT
+========================================================== -->
+    <script src="script.js"></script>
+  </body>
+</html>
