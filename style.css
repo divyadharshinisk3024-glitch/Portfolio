@@ -166,6 +166,7 @@ p {
   font-weight: 700;
   font-size: 1.15rem;
   letter-spacing: -0.01em;
+  color: #000000;
 }
 .logo span {
   color: var(--accent-deep);
