@@ -181,7 +181,7 @@ p {
   font-size: 0.78rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--ink-soft);
+  color: #000000;
   padding-bottom: 6px;
 }
 .nav-desktop a::after {
