@@ -3,10 +3,10 @@
    ===================================================================== */
 :root {
   /* ---- color: "drafting table" palette ---- */
-  --paper: #edf1f4; /* page background        */
-  --surface: #ffffff; /* cards / raised surfaces */
-  --ink: #1b2430; /* primary text            */
-  --ink-soft: #57626e; /* secondary text          */
+  --paper: #000000;
+--surface: #111111;
+--ink: #ffffff;
+--ink-soft: #cccccc;        */
   --line: #cbd4dc; /* hairlines / grid        */
   --accent: #dd5b36; /* rust — headings, marks  */
   --accent-deep: #b8431f; /* rust — buttons, contrast-safe text on light bg */
